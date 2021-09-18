@@ -1,0 +1,62 @@
+.prodCard{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #689775;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: #292942;
+    width: 45%;
+}
+
+.title{
+    font-size: 1.5rem;
+    color: #a33327;
+}
+
+.image img{
+    height: 15rem;
+    width: 80%;
+    display: inline-block;
+    margin: 1rem;;
+}
+
+.desc{
+    font-size: 1rem;
+}
+
+.price{
+    font-size: 1.2rem;
+    color: #1756ca;
+    margin-top: 1rem;
+}
+.add-btn{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #a33327;
+    color: #ad8174;
+    font-weight: 900;
+}
+
+.add-btn:hover{
+    background-color: #ad8174;
+    color: #a33327;
+    border: 0.2rem solid #a33327;
+    padding: 0.8rem;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.down-btn, .up-btn{
+    height: 1rem;
+    margin: 0.5rem;
+}
+
+.count{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+}
